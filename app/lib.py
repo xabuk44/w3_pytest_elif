@@ -9,6 +9,9 @@ def is_creditabele (age, salary):
 
     >>> is_creditabele(65, 20_000)
     False
+
+    >>> is_creditabele(25, 20_000)
+    False
     """
     min_age = 21
     max_age = 60
