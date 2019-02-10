@@ -24,6 +24,9 @@ def is_creditabele (age, salary):
         return False
     if salary < min_salary:
         return False
-    # если был Return, то после мы не пойдем
+    # если был Return False, то после мы не пойдем
     return True
 
+# [pytest]
+# addopts = --doctest-modules --doctest-continue-on-failure
+# doctest_optionflags = ELLIPSIS NORMALIZE_WHITESPACE
