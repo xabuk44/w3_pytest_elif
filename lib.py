@@ -25,8 +25,5 @@ def is_creditabele (age, salary):
     if salary < min_salary:
         return False
     # если был Return, то после мы не пойдем
+    return True
 
-    if min_age <= age < max_age and salary >= min_salary:
-        return True
-    else:
-        return False
